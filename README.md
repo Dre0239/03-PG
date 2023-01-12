@@ -6,17 +6,17 @@
 
 The javascript application code will run in the web browser and generate a random password based on the criteria the employees have selected.
 
-Here is a image showing the web application's appearance and functionality:
+Here is an image showing the web application's appearance and functionality:
 
 ## The Application:
 
 - Displays a red button to "Generate Password"
 
-<img src="" alt="alt text" title="image Title" />
+<img src="./assets/password generator.jpg" alt="pic of app" title="Password Generator" />
 
 ## User Story:
 
-- Employee with access to sensitive data need a randomly generate password that meets certain criteria. Createing a strong password that provides greater security.
+- Employee with access to sensitive data need a randomly generate password that meets certain criteria so createing a strong password that provides greater security.
 
 The employees will be prompted to choose from the following password criteria:
 
@@ -34,7 +34,7 @@ The employees will be prompted to choose from the following password criteria:
 
 - Uppercase characters
 
-The javascript application application should validate user input and ensure that at least one character type is selected.
+The javascript application should validate user input and ensure that at least one character type is selected.
 
 ## Business Context:
 
