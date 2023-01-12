@@ -24,7 +24,7 @@ The employees will be prompted to choose from the following password criteria:
 
 - Character type:
 
-- The password can include special characters. Click link below [list of password special characters]
+- The password can include special characters. Click link below
 
   (https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
