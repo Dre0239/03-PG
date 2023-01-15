@@ -4,15 +4,16 @@
 
 ## Description:
 
-The javascript application code will run in the web browser and generate a random password based on the criteria the employees have selected.
+The javascript application will run in the web browser and generate a random password based on the criteria the employees have selected.
 
-Here is an image showing the web application's appearance and functionality:
+The image below is showing the web application's appearance and functionality:
 
 ## The Application:
 
 - Displays a red button to "Generate Password"
 
-<img src="./assets/password generator.jpg" alt="pic of app" title="Password Generator" />
+<img src="./assets/password generator.jpg" alt ="pic of app" title="Password Generator" />
+<img src= "./assts/asssword generator function.png" alt = "function pic" />
 
 ## User Story:
 
