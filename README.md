@@ -13,11 +13,11 @@ The image below is showing the web application's appearance and functionality:
 - Displays a red button to "Generate Password"
 
 <img src="./assets/password generator.jpg" alt ="pic of app" title="Password Generator" />
-<img src= "./assts/asssword generator function.png" alt = "function pic" />
+<img src= "./assets/password generator function.png" alt = "function pic" />
 
 ## User Story:
 
-- Employee with access to sensitive data need a randomly generate password that meets certain criteria so createing a strong password that provides greater security.
+- Employees with access to sensitive data will require a randomly generated password that meets certain criteria providing the user with greater security.
 
 The employees will be prompted to choose from the following password criteria:
 
