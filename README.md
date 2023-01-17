@@ -54,3 +54,7 @@ The javascript application should validate user input and ensure that at least o
 The employee is presented with a series of prompts for password criteria. Each employee can select which criteria to include in the password. When prompted for the password length, the employee chooses at least eight characters and no more than 128 characters and will be asked for character types to include in the password.
 
 If the employees confirm whether or not to include lowercase, uppercase, numeric, or unique characters, the input should be validated, and at least one character type should be selected.
+
+Links 1: https://github.com/Dre0239/03-PG
+
+Link 2: https://dre0239.github.io/03-PG/
