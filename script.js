@@ -82,6 +82,7 @@ function generatePassword() {
   if (passwordlength >= 8 && passwordlength <= 128) {
     selectsymbol();
     randomNumber(passwordlength);
+    alert("Password Created!");
   } else {
     alert("Please enter 8 or more numbers.");
   }
