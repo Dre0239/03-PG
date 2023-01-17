@@ -79,6 +79,9 @@ function generatePassword() {
     " I choose a length of at least 8 characters and no more than 128 characters "
   );
   if (passwordlength >= 8 && passwordlength <= 128) {
+    selectsymbol();
+  } else {
+    alert("please enter 8 or more numbers.");
   }
 }
 
