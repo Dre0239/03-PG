@@ -60,6 +60,7 @@ var symbol = [
 var arrays = [];
 
 function selectsymbol() {
+  arrays = [];
   if (confirm("Add uppercase letters?")) {
     arrays = arrays.concat(upperCase);
   }
