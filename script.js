@@ -60,28 +60,28 @@ var symbol = [
 var arrays = [];
 
 function selectsymbol() {
-  if (confirm("Add uppercaser letters?")) {
+  if (confirm("Add uppercase letters?")) {
     arrays = arrays.concat(upperCase);
   }
-  if (confirm("Add uppercaser letters?")) {
+  if (confirm("Add lowercase letters?")) {
     arrays = arrays.concat(lowercase);
   }
-  if (confirm("Add uppercaser letters?")) {
+  if (confirm("Add number letters?")) {
     arrays = arrays.concat(number);
   }
-  if (confirm("Add uppercaser letters?")) {
+  if (confirm("Add symbol letters?")) {
     arrays = arrays.concat(symbol);
   }
 }
 
 function generatePassword() {
   var passwordlength = prompt(
-    " I choose a length of at least 8 characters and no more than 128 characters "
+    " Pleser choose a length of at least 8 characters and no more than 128 characters "
   );
   if (passwordlength >= 8 && passwordlength <= 128) {
     selectsymbol();
   } else {
-    alert("please enter 8 or more numbers.");
+    alert("Please enter 8 or more numbers.");
   }
 }
 
