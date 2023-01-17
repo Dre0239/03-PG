@@ -58,7 +58,6 @@ var symbol = [
 ];
 
 var arrays = [];
-var password = "";
 
 function selectsymbol() {
   if (confirm("Add uppercase letters?")) {
@@ -86,15 +85,16 @@ function generatePassword() {
   } else {
     alert("Please enter 8 or more numbers.");
   }
-  return password;
+  return retVal;
 }
 
 function randomNumber(passwordlength) {
+  retVal = "";
   for (var i = 0; i < passwordlength; i++) {
-    password += arrays[Math.floor(Math.random() * arrays.length)];
+    retVal += arrays[Math.floor(Math.random() * arrays.length)];
   }
 
-  return password;
+  return retVal;
 }
 
 // Write password to the #password input
