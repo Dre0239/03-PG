@@ -65,7 +65,7 @@ function selectsymbol() {
     arrays = arrays.concat(upperCase);
   }
   if (confirm("Add lowercase letters?")) {
-    arrays = arrays.concat(lowercase);
+    arrays = arrays.concat(lowerCase);
   }
   if (confirm("Add a numbers?")) {
     arrays = arrays.concat(number);
@@ -81,15 +81,19 @@ function generatePassword() {
   );
   if (passwordlength >= 8 && passwordlength <= 128) {
     selectsymbol();
+    randomNumber(passwordlength);
   } else {
     alert("Please enter 8 or more numbers.");
   }
+  return password;
 }
 
-function randomNumber() {
+function randomNumber(passwordlength) {
   for (var i = 0; i < passwordlength; i++) {
     password += arrays[Math.floor(Math.random() * arrays.length)];
   }
+
+  return password;
 }
 
 // Write password to the #password input
